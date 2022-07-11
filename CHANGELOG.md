@@ -3,6 +3,35 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [14.1.0](https://github.com/material-components/material-components-web/compare/v14.0.0...v14.1.0) (2022-07-11)
+
+
+### Bug Fixes
+
+* **button:** Refactored HCM focus ring into a base style with display: none so mixins can be applied to both a visible non-HCM ring and the HCM ring without extra specificity to override ripple-theme.focus selectors ([6a61d62](https://github.com/material-components/material-components-web/commit/6a61d62f6b2b1f6b4bcf7477bdad46ba4139e5c8))
+* **iconbutton:** Apply icon-size theme-styles properly for font icons. ([77cf00e](https://github.com/material-components/material-components-web/commit/77cf00e3767e7ae73fd704e55830ceda8b71fdc9))
+* **iconbutton:** Extract focus ring display properties into static styles to prevent customization via density mixins from overriding focus ring display conditions ([3c7b844](https://github.com/material-components/material-components-web/commit/3c7b844c2a27c678d9be5e93f9845dd8efda5835))
+* **list:** behavior in case of changing focus from -1 to -1 with forceUpdate: true ([ae278a2](https://github.com/material-components/material-components-web/commit/ae278a2fe94fdb8c5d0716fb34cbe84a691d6146))
+* **text-field:** Update textfield icons to allow spacebar keypresses to trigger an interaction ([c0a11ef](https://github.com/material-components/material-components-web/commit/c0a11ef0d000a098fd0c372be8f12d6a99302855))
+
+
+### Features
+
+* **circularprogress:** Added theme mixin that declares custom properties in MDC circular progress ([826a3d8](https://github.com/material-components/material-components-web/commit/826a3d8bede847f254702f7e652720b84d39234d))
+* **circularprogress:** Added theme styles mixin to MDC circular progress ([a02fe49](https://github.com/material-components/material-components-web/commit/a02fe49d397ba74b848b05b788f865193715d1bc))
+* **data-table:** Include modifier keys in MDC data table row click event data ([5b40eb9](https://github.com/material-components/material-components-web/commit/5b40eb9886f63aa9d8e8d571fb7aedeaf3d97892))
+* **dialog:** Add display mixin ([bebf5bf](https://github.com/material-components/material-components-web/commit/bebf5bfdf0ca880e6ce4a4b8c2f13f62bf433abe))
+* **list:** Added boilerplate code for list theming API implementation ([df47894](https://github.com/material-components/material-components-web/commit/df47894dbe5132b66af0df9c53a54d7d1030f397))
+* **list:** Added Theming API to MDC list ([b18a873](https://github.com/material-components/material-components-web/commit/b18a873dcb2800b3263d7636e829fa94b3c12d6d))
+* **snackbar:** Added theme mixin that declares custom properties ([8647092](https://github.com/material-components/material-components-web/commit/8647092f79d7838d85a1215f29fc1a08c57f02e8))
+* **snackbar:** Added theme styles mixin ([59cf61d](https://github.com/material-components/material-components-web/commit/59cf61d6b1e9ffbbfd67f999565e81fef423d63b))
+* **tooltip:** Adding side positioning options for plain tooltips. ([ba9c296](https://github.com/material-components/material-components-web/commit/ba9c29637109e300121c79a902df12310d9cf9fe))
+* **tooltip:** Emit event for tooltip shown. ([31e517c](https://github.com/material-components/material-components-web/commit/31e517cea3002785ad2936ebc6ef12317b9d4133))
+
+
+
+
+
 # [14.0.0](https://github.com/material-components/material-components-web/compare/v13.0.0...v14.0.0) (2022-04-27)
 
 
